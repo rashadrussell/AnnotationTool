@@ -8,7 +8,7 @@ Install dependencies and setup environment (Linux)
 `$ ./install.sh`
 
 
-![alt tag](https://github.com/rashadrussell/annotation-tool/blob/master/AnnotationToolScreenshot.png)
+![alt tag](https://github.com/rashadrussell/AnnotationTool/blob/master/AnnotationToolScreenshot.png)
 
 
 Todos
