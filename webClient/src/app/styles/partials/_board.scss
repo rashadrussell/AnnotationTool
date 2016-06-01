@@ -1,0 +1,18 @@
+#board {
+  width: 700px;
+  min-height: 700px;
+  margin: 0px auto;
+  padding: 100px 100px;
+  background-color: $white;
+  box-shadow: $soft-grey-shadow;
+
+  .highlight {
+    background-color: $yellow;
+  }
+
+  .chosen-annotation {
+    position: absolute;
+    z-index: 99999;
+    display: none;
+  }
+}

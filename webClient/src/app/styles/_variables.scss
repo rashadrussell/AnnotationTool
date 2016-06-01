@@ -1,0 +1,19 @@
+/** colors **/
+$white: #fff;
+$black: #000;
+$red:   #ff0000;
+$yellow: #ead61c;
+$grey:  #ccc;
+$dark-grey: #5e5e5e;
+$light-grey: #eee;
+
+/** primary colors **/
+$primary-background-color: $light-grey;
+
+/** shadows **/
+$soft-grey-shadow: 0px 0px 2px 0px $grey;
+$soft-grey-shadow-right: 1px 0px 2px 0px $grey;
+$soft-grey-shadow-bottom: 0px 1px 2px 0px $grey;
+
+/** borders **/
+$soft-grey-border: solid 1px $grey;

@@ -1,0 +1,53 @@
+#sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: $white;
+  box-shadow: $soft-grey-shadow;
+
+  .download {
+    width: 100%;
+    height: 8%;
+    min-height: 20px;
+    max-height: 100px; 
+    display: table;
+    border-bottom: $soft-grey-border;
+
+    .download-button-container {
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      &:hover {
+        background-color: $light-grey;
+      }
+      .file-uploader {
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    li {
+      padding: 15px 15px;
+      &:hover {
+        background-color: $light-grey;
+        cursor: pointer;
+      }
+      &.currentFile {
+        background-color: $light-grey;
+      }
+    }
+  }
+}

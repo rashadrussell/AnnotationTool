@@ -1,0 +1,83 @@
+#annotation-sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: $white;
+  box-shadow: $soft-grey-shadow;
+
+  .download {
+    width: 200px;
+    height: 8%;
+    min-height: 20px;
+    max-height: 100px;
+    display: table;
+    margin: 0px;
+    text-align: center;
+    background-color: $white;
+    a {
+      display: table-cell;
+      vertical-align: middle;
+      text-decoration: none;
+      color: $black;
+      &:hover {
+        cursor: pointer;
+        background-color: #eee;
+      }
+
+      .save-button {
+        padding: 0px;
+      }
+    }
+  }
+
+  .annotation-items {
+    height: 92%;
+    overflow-y: scroll;
+    border-top: $soft-grey-border;
+    .annotation-selector {
+      padding: 10px 10px;
+      border-bottom: $soft-grey-border;
+      overflow: hidden;
+
+      &>div {
+        display: inline-block;
+      }
+
+      .col1 {
+        width: 60%;
+      }
+
+      .col2 {
+        width: 30%;
+        text-align: center;
+      }
+
+      .col3 {
+        width: 10%;
+      }
+
+      .jump {
+        font-size: 10px;
+        text-decoration: none;
+        color: $dark-grey;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      p {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .remove-annotation {
+        color: $red;
+      }
+
+    }
+  }
+
+}

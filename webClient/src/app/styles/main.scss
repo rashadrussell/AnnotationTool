@@ -1,0 +1,13 @@
+@import 'variables';
+
+/** partials **/
+@import './partials/header';
+@import './partials/sidebar';
+@import './partials/annotationSidebar';
+@import './partials/board';
+
+/** app **/
+@import 'app';
+
+/** pages **/
+@import './pages/home';
