@@ -1,5 +1,5 @@
-Digital Reasoning - Annotation API
-==================================
+Annotation API
+===============
 
 **Instructions**
 
