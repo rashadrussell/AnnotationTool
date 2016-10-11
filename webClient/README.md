@@ -1,5 +1,7 @@
-Instructions
-===============
+Annotation Tool Web Client
+==========================
+
+**Instructions**
 
 `$ bower install`
 
