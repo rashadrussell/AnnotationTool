@@ -1,7 +1,5 @@
-Digital Reasoning
-=================
-
-**Instructions**
+Instructions
+===============
 
 `$ bower install`
 
